@@ -605,10 +605,11 @@ h1 {
 
     .navbar {
         padding: 10px 20px; /* Further reduce navbar padding */
+        flex-direction:column;
     }
 
     .nav-links {
-        flex-direction: column; /* Stack nav links vertically */
+        flex-direction: row; /* Stack nav links vertically */
         gap: 5px; /* Reduce gap between links */
     }
 
